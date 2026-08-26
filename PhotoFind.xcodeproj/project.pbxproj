@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1A6B2C9D4E5F60718293A4 /* PhotoFindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F70819203A4B5 /* PhotoFindApp.swift */; };
+		4A2B7C3D0E5F6071829304B5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F708192A3B4C5D6 /* Models.swift */; };
+		5A3B8C4D1E6F7182930415C6 /* PhotoLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4D5E6F708192A3B4C5D6E7 /* PhotoLibraryManager.swift */; };
+		6A4B9C5D2E7F8293041526D7 /* MediaIndexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E6F708192A3B4C5D6E7F8 /* MediaIndexer.swift */; };
+		7A5BAC6D3E8F9304152637E8 /* SpotlightIndexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6F708192A3B4C5D6E7F809 /* SpotlightIndexer.swift */; };
+		8A6BBC7D4E9F0415263748F9 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F708192A3B4C5D6E7F8091A /* SearchViewModel.swift */; };
+		9A7BCC8D5EAF05263849500A /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708192A3B4C5D6E7F8091A2B /* ThumbnailView.swift */; };
+		AA8BDC9D6EBF16374950611B /* AssetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192A3B4C5D6E7F8091A2B3C /* AssetDetailView.swift */; };
+		BA9BEDAD7ECF27485061722C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A3B4C5D6E7F8091A2B3C4D /* ContentView.swift */; };
+		CAABFEBE8FDF38596172833D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A3B4C5D6E7F8091A2B3C4D5E /* PrivacyInfo.xcprivacy */; };
+		DABC0FCF90EF49607283944E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C5D6E7F8091A2B3C4D5E6F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5D6E7F8091A2B3C4D5E6F70 /* PhotoFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2B3C4D5E6F70819203A4B5 /* PhotoFindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFindApp.swift; sourceTree = "<group>"; };
+		2B3C4D5E6F708192A3B4C5D6 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		3C4D5E6F708192A3B4C5D6E7 /* PhotoLibraryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryManager.swift; sourceTree = "<group>"; };
+		4D5E6F708192A3B4C5D6E7F8 /* MediaIndexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaIndexer.swift; sourceTree = "<group>"; };
+		5E6F708192A3B4C5D6E7F809 /* SpotlightIndexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightIndexer.swift; sourceTree = "<group>"; };
+		6F708192A3B4C5D6E7F8091A /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		708192A3B4C5D6E7F8091A2B /* ThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
+		8192A3B4C5D6E7F8091A2B3C /* AssetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetDetailView.swift; sourceTree = "<group>"; };
+		92A3B4C5D6E7F8091A2B3C4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1A3B4C5D6E7F8091A2B3C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B4C5D6E7F8091A2B3C4D5E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B4C5D6E7F8091A2B3C4D5E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6E7F8091A2B3C4D5E6F7081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7F8091A2B3C4D5E6F708192 = {
+			isa = PBXGroup;
+			children = (
+				F8091A2B3C4D5E6F708192A3 /* PhotoFind */,
+				091A2B3C4D5E6F708192A3B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		091A2B3C4D5E6F708192A3B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5D6E7F8091A2B3C4D5E6F70 /* PhotoFind.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8091A2B3C4D5E6F708192A3 /* PhotoFind */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B3C4D5E6F70819203A4B5 /* PhotoFindApp.swift */,
+				92A3B4C5D6E7F8091A2B3C4D /* ContentView.swift */,
+				2B3C4D5E6F708192A3B4C5D6 /* Models.swift */,
+				3C4D5E6F708192A3B4C5D6E7 /* PhotoLibraryManager.swift */,
+				4D5E6F708192A3B4C5D6E7F8 /* MediaIndexer.swift */,
+				5E6F708192A3B4C5D6E7F809 /* SpotlightIndexer.swift */,
+				6F708192A3B4C5D6E7F8091A /* SearchViewModel.swift */,
+				708192A3B4C5D6E7F8091A2B /* ThumbnailView.swift */,
+				8192A3B4C5D6E7F8091A2B3C /* AssetDetailView.swift */,
+				B4C5D6E7F8091A2B3C4D5E6F /* Assets.xcassets */,
+				A1A3B4C5D6E7F8091A2B3C4D /* Info.plist */,
+				A3B4C5D6E7F8091A2B3C4D5E /* PrivacyInfo.xcprivacy */,
+			);
+			path = PhotoFind;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B2C3D4E5F60718293A4B5C6 /* PhotoFind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3D4E5F60718293A4B5C6D7 /* Build configuration list for PBXNativeTarget "PhotoFind" */;
+			buildPhases = (
+				3D4E5F60718293A4B5C6D7E8 /* Sources */,
+				D6E7F8091A2B3C4D5E6F7081 /* Frameworks */,
+				4E5F60718293A4B5C6D7E8F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoFind;
+			productName = PhotoFind;
+			productReference = C5D6E7F8091A2B3C4D5E6F70 /* PhotoFind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F60718293A4B5C6D7E8F900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1B2C3D4E5F60718293A4B5C6 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 60718293A4B5C6D7E8F90112 /* Build configuration list for PBXProject "PhotoFind" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7F8091A2B3C4D5E6F708192;
+			productRefGroup = 091A2B3C4D5E6F708192A3B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B2C3D4E5F60718293A4B5C6 /* PhotoFind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E5F60718293A4B5C6D7E8F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABC0FCF90EF49607283944E /* Assets.xcassets in Resources */,
+				CAABFEBE8FDF38596172833D /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D4E5F60718293A4B5C6D7E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1A6B2C9D4E5F60718293A4 /* PhotoFindApp.swift in Sources */,
+				BA9BEDAD7ECF27485061722C /* ContentView.swift in Sources */,
+				4A2B7C3D0E5F6071829304B5 /* Models.swift in Sources */,
+				5A3B8C4D1E6F7182930415C6 /* PhotoLibraryManager.swift in Sources */,
+				6A4B9C5D2E7F8293041526D7 /* MediaIndexer.swift in Sources */,
+				7A5BAC6D3E8F9304152637E8 /* SpotlightIndexer.swift in Sources */,
+				8A6BBC7D4E9F0415263748F9 /* SearchViewModel.swift in Sources */,
+				9A7BCC8D5EAF05263849500A /* ThumbnailView.swift in Sources */,
+				AA8BDC9D6EBF16374950611B /* AssetDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		718293A4B5C6D7E8F9011223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoFind/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.photofind.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ENABLE_PREVIEWS = YES;
+			};
+			name = Debug;
+		};
+		8293A4B5C6D7E8F901122334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoFind/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.photofind.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ENABLE_PREVIEWS = YES;
+			};
+			name = Release;
+		};
+		93A4B5C6D7E8F90112233445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4B5C6D7E8F9011223344556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3D4E5F60718293A4B5C6D7 /* Build configuration list for PBXNativeTarget "PhotoFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718293A4B5C6D7E8F9011223 /* Debug */,
+				8293A4B5C6D7E8F901122334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60718293A4B5C6D7E8F90112 /* Build configuration list for PBXProject "PhotoFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A4B5C6D7E8F90112233445 /* Debug */,
+				A4B5C6D7E8F9011223344556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F60718293A4B5C6D7E8F900 /* Project object */;
+}
