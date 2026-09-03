@@ -21,7 +21,7 @@ Based on the repository's commit history, the app:
 2. **Clone the repo**:
 
    ```bash
-   git clone https://github.com/emmanuelorta1997-spec/PhotoFind-iOS.git
+   git clone https://github.com/emmanuelorta/PhotoFind-iOS.git
    cd PhotoFind-iOS
    ```
 
