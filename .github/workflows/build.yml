@@ -1,0 +1,48 @@
+name: Build PhotoFind (iOS)
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build for iOS Simulator
+    runs-on: macos-15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Show Xcode and project info
+        run: |
+          xcodebuild -version
+          xcodebuild -list -project PhotoFind.xcodeproj
+
+      - name: Detect scheme
+        id: scheme
+        run: |
+          SCHEME=$(xcodebuild -list -project PhotoFind.xcodeproj 2>/dev/null | awk '/Schemes:/{found=1; next} found && NF{print $1; exit}')
+          if [ -z "$SCHEME" ]; then SCHEME="PhotoFind"; fi
+          echo "Detected scheme: $SCHEME"
+          echo "scheme=$SCHEME" >> "$GITHUB_OUTPUT"
+
+      - name: Build (no code signing)
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -project PhotoFind.xcodeproj \
+            -scheme "${{ steps.scheme.outputs.scheme }}" \
+            -destination 'generic/platform=iOS Simulator' \
+            -configuration Debug \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO \
+            clean build
+
+      - name: Upload built app as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: PhotoFind-simulator-app
+          path: build/Build/Products/Debug-iphonesimulator/PhotoFind.app
+          if-no-files-found: warn
